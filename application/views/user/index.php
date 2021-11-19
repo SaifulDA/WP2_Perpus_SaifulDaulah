@@ -16,7 +16,7 @@
  <p class="card-text"><?= $user['email']; ?></p>
  <p class="card-text"><small class="text-muted">Jadi member sejak: <br><b><?= date('d F Y', $user['tanggal_input']); ?></b></small></p>
  </div>
- <div class="btn btn-info ml-3 my-3">
+ <div class="btn btn-success ml-3 my-3">
  <a href="<?= base_url('user/ubahprofil'); ?>"class="text text-white"><i class="fas fa-user-edit"></i> Ubah Profil</a>
  </div>
  </div>

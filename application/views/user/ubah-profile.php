@@ -34,8 +34,8 @@
  </div>
  <div class="form-group row justify-content-end">
  <div class="col-sm-10">
- <button type="submit" class="btn btn-rimary">Ubah</button>
- <button class="btn btn-dark" onclick="window.history.go(-1)"> Kembali</button>
+ <button type="submit" class="btn btn-success">Ubah</button>
+ <button class="btn btn-warning" onclick="window.history.go(-1)"> Kembali</button>
  </div>
  </div>
  </form>
